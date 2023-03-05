@@ -39,6 +39,12 @@
   :group 'org-ereader-annot)
 
 (defun org-ereader-annot--pocketbook-parse (pocketbook-annot-file)
+  "Parser function for
+`org-ereader-annot-pocketbook-insert-unsorted'. This function
+parse highlight color, page number, text content, and note
+content. Respectively, it is then inserted into `tag',
+`properties' content, level 2 `header' (akin to `org-noter'), and
+`content' of the text."
   (with-temp-buffer
     (insert-file-contents pocketbook-annot-file)
     (let ((dom (libxml-parse-html-region (point-min) (point-max)))
@@ -56,6 +62,15 @@
       (mapconcat 'identity (reverse results) ""))))
 
 (defun org-ereader-annot--pocketbook-parse-and-sort (pocketbook-annot-file)
+  "Parser function for `org-ereader-annot-pocketbook-insert'. This
+function parse highlight color, page number, text content, and
+note content. Respectively, it is then inserted into `tag',
+`properties' content, level 2 `header' (akin to `org-noter'), and
+`content' of the text.
+
+But as the nature of the annotation file
+is sorted by time of collection, this function also sort the
+result by page."
   (with-temp-buffer
     (insert-file-contents pocketbook-annot-file)
     (let ((dom (libxml-parse-html-region (point-min) (point-max)))
