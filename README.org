@@ -5,6 +5,43 @@
 *  Overview
 This package parse =pocketbook= annotation and format them into the proper =org= headers.
 
+[[file:assets/Screenshot-20230305144027.png][Screenshot of the package in action]]
+
+* Installation
+
+** for Doom
+Put this line into ~packages.el~ in your ~$DOOMDIR~
+#+begin_src emacs-lisp
+(package! org-ereader-annot
+  :recipe (:host github
+           :repo "rezaamashi/org-ereader-annot"))
+#+end_src
+
+And this to your ~config.el~
+#+begin_src emacs-lisp
+(use-package! org-ereader-annot
+  :commands (org-ereader-annot-pocketbook-insert
+             org-ereader-annot-pocketbook-insert-unsorted))
+#+end_src
+
+** non-Doom with straight
+#+begin_src emacs-lisp
+(use-package org-ereader-annot
+  :straight (:host github
+             :repo "rezaamashi/org-ereader-annot")
+  :commands (org-ereader-annot-pocketbook-insert
+             org-ereader-annot-pocketbook-insert-unsorted))
+#+end_src
+
+* Usage
+Call ~org-ereader-annot-pocketbook-insert~ below a level-1 header of an org-file. Place it in your own keybinding or use my recommended ~Doom~ binding here:
+#+begin_src emacs-lisp
+(map! :map org-mode-map
+      :leader
+      :n :desc "Insert pocketbook annot" "n i" #'org-ereader-annot-pocketbook-insert
+      :n :desc "Insert pocketbook annot (unsort)" "n I" #'org-ereader-annot-pocketbook-insert-unsorted)
+#+end_src
+
 * TODO-lists
 - [ ] Include another app exports
   + [ ] kindle "my-clippings.txt"
