@@ -9,3 +9,4 @@ This package parse =pocketbook= annotation and format them into the proper =org=
 - [ ] Include another app exports
   + [ ] kindle "my-clippings.txt"
   + [ ] moon+ reader
+- [ ] make inserted header to be dynamically generated from previous header, instead of defined in the code
