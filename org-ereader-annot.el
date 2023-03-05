@@ -78,13 +78,13 @@
 
 (defun org-ereader-annot-pocketbook-insert ()
   "Parse and sort PocketBook HTML annotation file and insert it `at-point' of
-   the buffer"
+   the buffer, and sort it by page"
   (interactive)
   (let ((file (expand-file-name (read-file-name "Select HTML file: "))))
     (insert (concat ":PROPERTIES:\n:FILE: " file
                     "\n:CREATED: " (format-time-string "[%Y-%m-%d %a %R]")
                     "\n:END:\n\n"
-                    (rz/pocketbook-to-org file)))))
+                    (org-ereader-annot--pocketbook-parse-and-sort file)))))
 
 (defun org-ereader-annot-pocketbook-insert-unsorted ()
   "Parse PocketBook HTML annotation file and insert it `at-point' of
@@ -94,7 +94,7 @@
     (insert (concat ":PROPERTIES:\n:FILE: " file
                     "\n:CREATED: " (format-time-string "[%Y-%m-%d %a %R]")
                     "\n:END:\n\n"
-                    (rz/pocketbook-to-org-unsorted file)))))
+                    (org-ereader-annot--pocketbook-parse file)))))
 
 (provide 'org-ereader-annot)
 ;;; org-ereader-annot.el ends here
