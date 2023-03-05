@@ -1,0 +1,11 @@
+#+TITLE: org-ereader-annot
+#+AUTHOR:    Reza A'masyi
+#+EMAIL:     mnurrreza@gmail.com
+
+*  Overview
+This package parse =pocketbook= annotation and format them into the proper =org= headers.
+
+* TODO-lists
+- [ ] Include another app exports
+  + [ ] kindle "my-clippings.txt"
+  + [ ] moon+ reader
