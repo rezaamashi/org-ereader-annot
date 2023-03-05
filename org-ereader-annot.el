@@ -14,9 +14,8 @@
 ;; This file is not part of GNU Emacs.
 ;;
 ;;; Commentary:
-;;
-;;
-;;
+;; Provide extraction interface from ereader exported annotation
+;; into `org-mode' notes
 ;;; Code:
 
 ;;(require 'org)
@@ -39,7 +38,7 @@
   :type 'string
   :group 'org-ereader-annot)
 
-(defun org-ereader-annot-pocketbook-parse (pocketbook-annot-file)
+(defun org-ereader-annot--pocketbook-parse (pocketbook-annot-file)
   (with-temp-buffer
     (insert-file-contents pocketbook-annot-file)
     (let ((dom (libxml-parse-html-region (point-min) (point-max)))
@@ -56,7 +55,7 @@
                           text color page (if note (concat "\n*** Note :note:\n" note "\n") "")) results))))
       (mapconcat 'identity (reverse results) ""))))
 
-(defun org-ereader-annot-pocketbook-parse-and-sort (pocketbook-annot-file)
+(defun org-ereader-annot--pocketbook-parse-and-sort (pocketbook-annot-file)
   (with-temp-buffer
     (insert-file-contents pocketbook-annot-file)
     (let ((dom (libxml-parse-html-region (point-min) (point-max)))
@@ -77,7 +76,7 @@
       (setq results (sort results (lambda (x y) (> (car x) (car y)))))
       (mapconcat 'identity (reverse (mapcar 'cadr results)) ""))))
 
-(defun org-ereader-annot-pocketbook-insert-annot-at-point ()
+(defun org-ereader-annot-pocketbook-insert ()
   "Parse and sort PocketBook HTML annotation file and insert it `at-point' of
    the buffer"
   (interactive)
@@ -87,7 +86,7 @@
                     "\n:END:\n\n"
                     (rz/pocketbook-to-org file)))))
 
-(defun org-ereader-annot-pocketbook-insert-unsorted-annot-at-point ()
+(defun org-ereader-annot-pocketbook-insert-unsorted ()
   "Parse PocketBook HTML annotation file and insert it `at-point' of
    the buffer"
   (interactive)
