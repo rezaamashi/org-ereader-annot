@@ -30,11 +30,11 @@
 
 (defcustom org-ereader-annot-directory ""
   "Define the target directory of annotation files."
-  :type 'string
+  :type 'directory
   :group 'org-ereader-annot)
 
 (defcustom org-ereader-annot-level ""
-  "Define the target heading level of the org-file."
+  "Define the default heading level of the `Annotation'."
   :type 'string
   :group 'org-ereader-annot)
 
@@ -95,7 +95,7 @@ result by page."
   "Parse and sort PocketBook HTML annotation file and insert it `at-point' of
    the buffer, and sort it by page"
   (interactive)
-  (let ((file (abbreviate-file-name (expand-file-name (read-file-name "Select Pocketbook annotation file: ")))))
+  (let ((file (abbreviate-file-name (expand-file-name (read-file-name "Select Pocketbook annotation file: " org-ereader-annot-directory)))))
     (insert (concat "* Annotation\n:PROPERTIES:\n:FILE: " file
                     "\n:CREATED: " (format-time-string "[%Y-%m-%d %a %R]")
                     "\n:END:\n\n"
@@ -105,7 +105,7 @@ result by page."
   "Parse PocketBook HTML annotation file and insert it `at-point' of
    the buffer"
   (interactive)
-  (let ((file (abbreviate-file-name (expand-file-name (read-file-name "Select Pocketbook annotation file: ")))))
+  (let ((file (abbreviate-file-name (expand-file-name (read-file-name "Select Pocketbook annotation file: " org-ereader-annot-directory)))))
     (insert (concat "* Annotation\n:PROPERTIES:\n:FILE: " file
                     "\n:CREATED: " (format-time-string "[%Y-%m-%d %a %R]")
                     "\n:END:\n\n"

@@ -22,7 +22,10 @@ And this to your ~config.el~
 #+begin_src emacs-lisp
 (use-package! org-ereader-annot
   :commands (org-ereader-annot-pocketbook-insert
-             org-ereader-annot-pocketbook-insert-unsorted))
+             org-ereader-annot-pocketbook-insert-unsorted)
+  :config
+  ;; Setting default location where annot files are collected
+  (setq org-ereader-annot-directory "~/org/Kindnotes"))
 #+end_src
 
 ** non-Doom with straight
@@ -31,7 +34,10 @@ And this to your ~config.el~
   :straight (:host github
              :repo "rezaamashi/org-ereader-annot")
   :commands (org-ereader-annot-pocketbook-insert
-             org-ereader-annot-pocketbook-insert-unsorted))
+             org-ereader-annot-pocketbook-insert-unsorted)
+  :config
+  ;; Setting default location where annot files are collected
+  (setq org-ereader-annot-directory "~/org/Kindnotes"))
 #+end_src
 
 * Usage
@@ -45,8 +51,8 @@ Call ~org-ereader-annot-pocketbook-insert~ on an org-file. Place it in your own 
 Don't have the annotation file to test? Don't worry. I got ya covered. Check the [[file:testfile/][testfile]] directory for test files and examples.
 
 * TODO-lists
+- [X] Set the function to interactively start on defined directory. Instead of cwd
 - [ ] Declutter the code (improve modularity and cleanup redundancy)
-- [ ] Set the function to interactively start on defined directory. Instead of cwd
 - [ ] Make inserted header to be dynamically generated from following pre-existing header, instead of defined in the code
 - [ ] Include another app exports
   + [ ] kindle "my-clippings.txt"
