@@ -25,7 +25,9 @@ And this to your ~config.el~
              org-ereader-annot-pocketbook-insert-unsorted)
   :config
   ;; Setting default location where annot files are collected
-  (setq org-ereader-annot-directory "~/org/Kindnotes"))
+  (setq org-ereader-annot-directory "~/org/Kindnotes/"
+  ;; Set the header level of the inserted annot
+        org-ereader-annot-header-level 1))
 #+end_src
 
 ** non-Doom with straight
@@ -37,7 +39,9 @@ And this to your ~config.el~
              org-ereader-annot-pocketbook-insert-unsorted)
   :config
   ;; Setting default location where annot files are collected
-  (setq org-ereader-annot-directory "~/org/Kindnotes"))
+  (setq org-ereader-annot-directory "~/org/Kindnotes/"
+  ;; Set the header level of the inserted annot
+        org-ereader-annot-header-level 1))
 #+end_src
 
 * Usage
@@ -53,7 +57,8 @@ Don't have the annotation file to test? Don't worry. I got ya covered. Check the
 * TODO-lists
 - [X] Set the function to interactively start on defined directory. Instead of cwd
 - [X] Declutter the code (improve modularity and cleanup redundancy)
-- [ ] Make inserted header to be dynamically generated from following pre-existing header, instead of defined in the code
+- [X] Allow user to define the header level of the inserted annotation
+- [ ] Give user option to set whether the header level would be uniformed or dynamically set from the pre-existing header
 - [ ] Include another app exports
   + [ ] kindle "my-clippings.txt"
   + [ ] kindle android's html annotation export
