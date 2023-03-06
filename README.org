@@ -34,13 +34,14 @@ And this to your ~config.el~
 #+end_src
 
 * Usage
-Call ~org-ereader-annot-pocketbook-insert~ below a level-1 header of an org-file. Place it in your own keybinding or use my recommended ~Doom~ binding here:
+Call ~org-ereader-annot-pocketbook-insert~ on an org-file. Place it in your own keybinding or use my recommended ~Doom~ binding here:
 #+begin_src emacs-lisp
 (map! :map org-mode-map
       :leader
       :n :desc "Insert pocketbook annot" "n i" #'org-ereader-annot-pocketbook-insert
       :n :desc "Insert pocketbook annot (unsort)" "n I" #'org-ereader-annot-pocketbook-insert-unsorted)
 #+end_src
+Don't have the annotation file to test? Don't worry. I got ya covered. Check the [[file:testfile/][testfile]] directory.
 
 * TODO-lists
 - [ ] Include another app exports

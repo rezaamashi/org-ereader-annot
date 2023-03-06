@@ -96,7 +96,7 @@ result by page."
    the buffer, and sort it by page"
   (interactive)
   (let ((file (expand-file-name (read-file-name "Select HTML file: "))))
-    (insert (concat ":PROPERTIES:\n:FILE: " file
+    (insert (concat "* Annotation\n:PROPERTIES:\n:FILE: " file
                     "\n:CREATED: " (format-time-string "[%Y-%m-%d %a %R]")
                     "\n:END:\n\n"
                     (org-ereader-annot--pocketbook-parse-and-sort file)))))
@@ -106,7 +106,7 @@ result by page."
    the buffer"
   (interactive)
   (let ((file (expand-file-name (read-file-name "Select HTML file: "))))
-    (insert (concat ":PROPERTIES:\n:FILE: " file
+    (insert (concat "* Annotation\n:PROPERTIES:\n:FILE: " file
                     "\n:CREATED: " (format-time-string "[%Y-%m-%d %a %R]")
                     "\n:END:\n\n"
                     (org-ereader-annot--pocketbook-parse file)))))
