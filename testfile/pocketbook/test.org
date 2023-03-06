@@ -1,0 +1,481 @@
+#+title: Result from Pocketbook Annotation
+
+* Annotation
+:PROPERTIES:
+:FILE: ~/org/Kindnotes/So Good They Can't Ignore You Why Skills Trump Passion in the Quest for Work You Love.html
+:CREATED: [2023-03-06 Mon 09:05]
+:END:
+
+** As mentioned, I didn’t get far in my quest before I realized, as Thomas did before me, that the conventional wisdom on career success—follow your passion—is seriously flawed. It not only fails to describe how most people actually end up with compelling careers, but for many people it can actually make things worse: leading to chronic job shifting and unrelenting angst when, as it did for Thomas, one’s reality inevitably falls short of the dream :blue:
+ :PROPERTIES:
+:PAGE: 12
+:END:
+
+** This argument flips conventional wisdom. It relegates passion to the sidelines, claiming that this feeling is an epiphenomenon of a working life well lived. Don’t follow your passion; rather, let it follow you in your quest to become, in the words of my favorite Steve Martin quote, “so good that they can’t ignore you.” :blue:
+ :PROPERTIES:
+:PAGE: 13
+:END:
+
+** The Passion Hypothesis The key to occupational happiness is to first figure out what you’re passionate about and then find a job that matches this passion :yellow:
+ :PROPERTIES:
+:PAGE: 19
+:END:
+
+** We are told to lionize those with the courage to follow their passion, and pity the conformist drones who cling to the safe path :blue:
+ :PROPERTIES:
+:PAGE: 19
+:END:
+
+** If a young Steve Jobs had taken his own advice and decided to only pursue work he loved, we would probably find him today as one of the Los Altos Zen Center’s most popular teachers. But he didn’t follow this simple advice. Apple Computer was decidedly not born out of passion, but instead was the result of a lucky break—a “small-time” scheme that unexpectedly took off :blue:
+ :PROPERTIES:
+:PAGE: 24
+:END:
+
+** How do we find work that we’ll eventually love? Like Jobs, should we resist settling into one rigid career and instead try lots of small schemes, waiting for one to take off? Does it matter what general field we explore? How do we know when to stick with a project or when to move on? In other words, Jobs’s story generates more questions than it answers. Perhaps the only thing it does make clear is that, at least for Jobs, “follow your passion” was not particularly useful advice. :blue:
+ :PROPERTIES:
+:PAGE: 25
+:END:
+
+** These interviews emphasize an important point: Compelling careers often have complex origins that reject the simple idea that all you have to do is follow your passion. :blue:
+ :PROPERTIES:
+:PAGE: 29
+:END:
+
+*** Note :note:
+On Roadtrip Nation Project
+
+** A job, in Wrzesniewski’s formulation, is a way to pay the bills, a career is a path toward increasingly better work, and a calling is work that’s an important part of your life and a vital part of your identity :blue:
+ :PROPERTIES:
+:PAGE: 33
+:END:
+
+** To test this explanation, Wrzesniewski looked at a group of employees who all had the same position and nearly identical work responsibilities: college administrative assistants. She found, to her admitted surprise, that these employees were roughly evenly split between seeing their position as a job, a career, or a calling :blue:
+ :PROPERTIES:
+:PAGE: 33
+:END:
+
+** The passion hypothesis, for example, predicts that occupations that match common passions, such as being a doctor or a teacher, should have a high proportion of people who experience the work as a true calling, while less flashy occupations—the type that no one daydreams about—should have almost no one experiencing the work as a calling :blue:
+ :PROPERTIES:
+:PAGE: 33
+:END:
+
+** In Wrzesniewski’s research, the happiest, most passionate employees are not those who followed their passion into a position, but instead those who have been around long enough to become good at what they do :blue:
+ :PROPERTIES:
+:PAGE: 34
+:END:
+
+** Self-Determination Theory (SDT), which is arguably the best understanding science currently has for why some pursuits get our engines running while others leave us cold :blue:
+ :PROPERTIES:
+:PAGE: 35
+:END:
+
+** SDT tells us that motivation, in the workplace or elsewhere, requires that you fulfill three basic psychological needs—factors described as the “nutriments” required to feel intrinsically motivated for your work: Autonomy: the feeling that you have control over your day, and that your actions are important Competence: the feeling that you are good at what you do Relatedness: the feeling of connection to other people :blue:
+ :PROPERTIES:
+:PAGE: 35
+:END:
+
+*** Note :note:
+an interesting RQ: How modern people manage to fulfill the third part with the remote working environment?
+
+** The decades since the publication of Bolles’s book can be understood as a period of increasing dedication to the passion hypothesis. You can visualize this shift by using Google’s Ngram Viewer2. This tool allows you to search Google’s vast corpus of digitized books to see how often selected phrases turn up in published writing over time. If you enter “follow your passion,” you see a spike in usage right at 1970 (the year when Bolles’s book was published), followed by a relatively steady high usage until 1990, at which point the graph curve swings upward. By 2000, the phrase “follow your passion” was showing up in print three times more often than in the seventies and eighties. :blue:
+ :PROPERTIES:
+:PAGE: 38
+:END:
+
+** I disagree. The more I studied the issue, the more I noticed that the passion hypothesis convinces people that somewhere there’s a magic “right” job waiting for them, and that if they find it, they’ll immediately recognize that this is the work they were meant to do. The problem, of course, is when they fail to find this certainty, bad things follow, such as chronic job-hopping and crippling self-doubt :blue:
+ :PROPERTIES:
+:PAGE: 39
+:END:
+
+** . This young generation has “high expectations for work,” explains psychologist Jeffrey Arnett, an expert on the mindset of the modern postgrad. “They expect work to be not just a job but an adventure[,]… a venue for self-development and self-expression[,]… and something that provides a satisfying fit with their assessment of their talents.” :blue:
+ :PROPERTIES:
+:PAGE: 39
+:END:
+
+** Among young people, the group perhaps most concerned with the role of work in their lives, 64 percent now say that they’re actively unhappy in their jobs. This is the highest level of dissatisfaction ever measured for any age group over the full two-decade history of the survey4 :blue:
+ :PROPERTIES:
+:PAGE: 40
+:END:
+
+** The 2010 Conference Board survey of U.S. job satisfaction found that only 45 percent of Americans describe themselves as satisfied with their jobs. This number has been steadily decreasing from the mark of 61 percent recorded in 1987, the first year of the survey :blue:
+ :PROPERTIES:
+:PAGE: 40
+:END:
+
+** These stories, which are increasingly common at all ages, from college students to the middle-aged, all point toward the same conclusion: The passion hypothesis is not just wrong, it’s also dangerous. Telling someone to “follow their passion” is not just an act of innocent optimism, but potentially the foundation for a career riddled with confusion and angst :blue:
+ :PROPERTIES:
+:PAGE: 41
+:END:
+
+** I introduce two different approaches to thinking about work: the craftsman mindset, a focus on what value you’re producing in your job, and the passion mindset, a focus on what value your job offers you. Most people adopt the passion mindset, but in this chapter I argue that the craftsman mindset is the foundation for creating work you love :blue:
+ :PROPERTIES:
+:PAGE: 46
+:END:
+
+** Musicians’ career paths are idiosyncratic, often relying on unusual circumstances and lucky breaks early in life. :blue:
+ :PROPERTIES:
+:PAGE: 50
+:END:
+
+** when Rose asks Martin his advice for aspiring performers. “Nobody ever takes note of [my advice], because it’s not the answer they wanted to hear,” Martin said. “What they want to hear is ‘Here’s how you get an agent, here’s how you write a script,’… but I always say, ‘Be so good they can’t ignore you.’ ” :blue:
+ :PROPERTIES:
+:PAGE: 50
+:END:
+
+** Martin’s axiom gave me a reprieve from this self-promotion. “Stop focusing on these little details,” it told me. “Focus instead on becoming better.” Inspired, I turned my attention from my website to a habit that continues to this day: I track the hours spent each month dedicated to thinking hard about research problems  :blue:
+ :PROPERTIES:
+:PAGE: 52
+:END:
+
+** This dedication to output, I realized, also explains his painful modesty. To Jordan, arrogance doesn’t make sense. “Here’s what I respect: creating something meaningful and then presenting it to the world,” he explained :blue:
+ :PROPERTIES:
+:PAGE: 53
+:END:
+
+** Whereas the craftsman mindset focuses on what you can offer the world, the passion mindset focuses instead on what the world can offer you. This mindset is how most people approach their working lives :blue:
+ :PROPERTIES:
+:PAGE: 54
+:END:
+
+** First, when you focus only on what your work offers you, it makes you hyperaware of what you don’t like about it, leading to chronic unhappiness :blue:
+ :PROPERTIES:
+:PAGE: 54
+:END:
+
+** Second, and more serious, the deep questions driving the passion mindset—“Who am I?” and “What do I truly love?”—are essentially impossible to confirm. :blue:
+ :PROPERTIES:
+:PAGE: 55
+:END:
+
+** You shouldn’t just envy the craftsman mindset, you should emulate it. In other words, I am suggesting that you put aside the question of whether your job is your true passion, and instead turn your focus toward becoming so good they can’t ignore you. That is, regardless of what you do for a living, approach your work like a true performer :blue:
+ :PROPERTIES:
+:PAGE: 56
+:END:
+
+** TRAITS THAT DEFINE GREAT WORK Creativity: Ira Glass, for example, is pushing the boundaries of radio, and winning armfuls of awards in the process. Impact: From the Apple II to the iPhone, Steve Jobs has changed the way we live our lives in the digital age. Control: No one tells Al Merrick when to wake up or what to wear. He’s not expected in an office from nine to five. Instead, his Channel Island Surfboards factory is located a block from the Santa Barbara beach, where Merrick still regularly spends time surfing. ( Jake Burton Carpenter, founder of Burton Snowboards, for example, recalls how negotiations for the merger between the two companies happened while he and Merrick waited for waves in a surf lineup.) :blue:
+ :PROPERTIES:
+:PAGE: 60
+:END:
+
+** He produced something of great value and in return his career got an injection of creativity, impact, and control :blue:
+ :PROPERTIES:
+:PAGE: 62
+:END:
+
+** THE CAREER CAPITAL THEORY OF GREAT WORK The traits that define great work are rare and valuable. Supply and demand says that if you want these traits you need rare and valuable skills to offer in return. Think of these rare and valuable skills you can offer as your career capital. The craftsman mindset, with its relentless focus on becoming “so good they can’t ignore you,” is a strategy well suited for acquiring career capital. This is why it trumps the passion mindset if your goal is to create work you love :blue:
+ :PROPERTIES:
+:PAGE: 64
+:END:
+
+** THREE DISQUALIFIERS FOR APPLYING THE CRAFTSMAN MINDSET The job presents few opportunities to distinguish yourself by developing relevant skills that are rare and valuable. The job focuses on something you think is useless or perhaps even actively bad for the world. The job forces you to work with people you really dislike :blue:
+ :PROPERTIES:
+:PAGE: 71
+:END:
+
+** This focus on stretching your ability and receiving immediate feedback provides the core of a more universal principle—one that I increasingly came to believe provides the key to successfully acquiring career capital in almost any field. :blue:
+ :PROPERTIES:
+:PAGE: 95
+:END:
+
+** studying chess players since as early as the 1920s, when a trio of German psychologists set out to determine if grand masters had freakish memories.1 (Interestingly, it turns out they don’t: Though grand masters are fantastically efficient at storing chess positions in their minds, their general recall ability is quite average. :blue:
+ :PROPERTIES:
+:PAGE: 96
+:END:
+
+** Previous studies had shown it takes around ten years, at minimum, to become a grand master. (As the psychologist K. Anders Ericsson likes to point out, even prodigies like Bobby Fisher managed to fit in ten years of playing before they achieved international recognition: He just started this accumulation earlier than most. :blue:
+ :PROPERTIES:
+:PAGE: 97
+:END:
+
+** The 10,000-Hour Rule The idea that excellence at performing a complex task requires a critical minimum level of practice surfaces again and again in studies of expertise. In fact, researchers have settled on what they believe is the magic number for true expertise: ten thousand hours [emphasis mine] :blue:
+ :PROPERTIES:
+:PAGE: 97
+:END:
+
+** When surveyed, the participants in Charness’s study thought tournament play was probably the right answer. The participants, as it turns out, were wrong. Hours spent in serious study of the game was not just the most important factor in predicting chess skill, it dominated the other factors. The researchers discovered that the players who became grand masters spent five times more hours dedicated to serious study than those who plateaued at an intermediate level :blue:
+ :PROPERTIES:
+:PAGE: 98
+:END:
+
+** The grand masters, on average, dedicated around 5,000 hours out of their 10,000 to serious study. The intermediate players, by contrast, dedicated only around 1,000 to this activity :blue:
+ :PROPERTIES:
+:PAGE: 98
+:END:
+
+** On closer examination, the importance of serious study becomes more obvious. In serious study, Charness concluded, “materials can be deliberately chosen or adapted such that the problems to be solved are at a level that is appropriately challenging.” This contrasts with tournament play, where you are likely to draw an opponent who is either demonstrably better or demonstrably worse than yourself: both situations where “skill improvement is likely to be minimized.”  :blue:
+ :PROPERTIES:
+:PAGE: 99
+:END:
+
+** Furthermore, in serious study, feedback is immediate: be it from looking up the answer to a chess problem in a book or, as is more typically the case for serious players, receiving immediate feedback from an expert coach :blue:
+ :PROPERTIES:
+:PAGE: 99
+:END:
+
+** In the early 1990s, Anders Ericsson, a colleague of Neil Charness at Florida State University, coined the term “deliberate practice” to describe this style of serious study, defining it formally as an “activity designed, typically by a teacher, for the sole purpose of effectively improving specific aspects of an individual’s performance.” :blue:
+ :PROPERTIES:
+:PAGE: 99
+:END:
+
+** The other thing I noticed about Alex is that this learning is not done in isolation: “You need to be constantly soliciting feedback from colleagues and professionals,” he told me. During his rise, Alex consistently chose projects where he’d be forced to show his work to others :blue:
+ :PROPERTIES:
+:PAGE: 102
+:END:
+
+** his activities into two categories: hard to change (i.e., weekly commitments he can’t avoid) and highly changeable (i.e., self-directed activities that he controls) :blue:
+ :PROPERTIES:
+:PAGE: 104
+:END:
+
+** Mike’s goal with his spreadsheet is to become more “intentional” about how his workday unfolds.  :blue:
+ :PROPERTIES:
+:PAGE: 104
+:END:
+
+** This is a great example of deliberate practice at work. “I want to spend time on what’s important, instead of what’s immediate,” Mike explained. At the end of every week he prints his numbers to see how well he achieved this goal, and then uses this feedback to guide himself in the week ahead :blue:
+ :PROPERTIES:
+:PAGE: 105
+:END:
+
+** When you are acquiring career capital in a field, you can imagine that you are acquiring this capital in a specific type of career capital market. There are two types of these markets: winner-take-all and auction :blue:
+ :PROPERTIES:
+:PAGE: 107
+:END:
+
+** In a winner-take-all market, there is only one type of career capital available, and lots of different people competing for it. :blue:
+ :PROPERTIES:
+:PAGE: 107
+:END:
+
+** An auction market, by contrast, is less structured: There are many different types of career capital, and each person might generate a unique collection :blue:
+ :PROPERTIES:
+:PAGE: 107
+:END:
+
+** If you show up and do what you’re told, you will, as Anders Ericsson explained earlier in this chapter, reach an “acceptable level” of ability before plateauing. The good news about deliberate practice is that it will push you past this plateau and into a realm where you have little competition :blue:
+ :PROPERTIES:
+:PAGE: 114
+:END:
+
+** The bad news is that the reason so few people accomplish this feat is exactly because of the trait Colvin warned us about: Deliberate practice is often the opposite of enjoyable :blue:
+ :PROPERTIES:
+:PAGE: 114
+:END:
+
+** But this stretching, as any mathematician will also admit, is the precondition to getting better :blue:
+ :PROPERTIES:
+:PAGE: 114
+:END:
+
+** When I’m learning a new mathematical technique—a classic case of deliberate practice—the uncomfortable sensation in my head is best approximated as a physical strain, as if my neurons are physically re-forming into new configurations :blue:
+ :PROPERTIES:
+:PAGE: 114
+:END:
+
+** Martin expounds on this idea when he discusses the importance of “diligence” for his success in the entertainment business. What’s interesting is that Martin redefines the word so that it’s less about paying attention to your main pursuit, and more about your willingness to ignore other pursuits that pop up along the way to distract you. :blue:
+ :PROPERTIES:
+:PAGE: 116
+:END:
+
+** If you want to observe the power of control up close in the workplace, look toward companies embracing a radical new philosophy called Results-Only Work Environment (or, ROWE, for short). In a ROWE company, all that matters is your results.  :blue:
+ :PROPERTIES:
+:PAGE: 130
+:END:
+
+** The First Control Trap Control that’s acquired without career capital is not sustainable :blue:
+ :PROPERTIES:
+:PAGE: 135
+:END:
+
+** The Second Control Trap The point at which you have acquired enough career capital to get meaningful control over your working life is exactly the point when you’ve become valuable enough to your current employer that they will try to prevent you from making the change :blue:
+ :PROPERTIES:
+:PAGE: 147
+:END:
+
+** The key, it seems, is to know when the time is right to become courageous in your career decisions. Get this timing right, and a fantastic working life awaits you, but get it wrong by tripping the first control trap in a premature bid for autonomy, and disaster lurks :blue:
+ :PROPERTIES:
+:PAGE: 148
+:END:
+
+** The fault of the courage culture, therefore, is not its underlying message that courage is good, but its severe underestimation of the complexity involved in deploying this boldness in a useful way :blue:
+ :PROPERTIES:
+:PAGE: 148
+:END:
+
+** It’s possible that you don’t have enough career capital to back up this bid for more control. That is, you’re about to fall into the first control trap. In this case, you should heed the resistance and shelve the idea. At the same time, however, it’s possible that you have plenty of career capital, and this resistance is being generated exactly because you’re so valuable. That is, you’ve fallen into the second control trap. In this case, you should ignore the resistance and pursue the idea. This, of course, is the problem with control: Both scenarios feel the same, but the right response is different in each :blue:
+ :PROPERTIES:
+:PAGE: 149
+:END:
+
+** Derek thought for a moment. “I have this principle about money that overrides my other life rules,” he said. “Do what people are willing to pay for.” :blue:
+ :PROPERTIES:
+:PAGE: 154
+:END:
+
+** He also emphasized that hobbies are clearly exempt from this rule. “If I want to learn to scuba dive, for example, because I think it’s fun, and people won’t pay me to do that, I don’t care, I’m going to do it anyway,” he said. But when it comes to decisions affecting your core career, money remains an effective judge of value. “If you’re struggling to raise money for an idea, or are thinking that you will support your idea with unrelated work, then you need to rethink the idea.” :blue:
+ :PROPERTIES:
+:PAGE: 154
+:END:
+
+** His first big move, for example, was to become a professional musician in 1992. As Derek explained to me, he started by pursuing music at night and on the weekend. “I didn’t quit my day job until I was making more money with my music.” His second big move was to start CD Baby. Again, he didn’t turn his attention full-time to this pursuit until after he had built up a profitable client base. “People ask me how I funded my business,” he said. “I tell them first I sold one CD, which gave me enough money to sell two.” It grew from there :blue:
+ :PROPERTIES:
+:PAGE: 154
+:END:
+
+** The Law of Financial Viability When deciding whether to follow an appealing pursuit that will introduce more control into your work life, seek evidence of whether people are willing to pay for it. If you find this evidence, continue. If not, move on :blue:
+ :PROPERTIES:
+:PAGE: 155
+:END:
+
+** To understand this, notice that the definition of “willing to pay” varies. In some cases, it literally means customers paying you money for a product or a service. But it can also mean getting approved for a loan, receiving an outside investment, or, more commonly, convincing an employer to either hire you or keep writing you paychecks. Once you adopt this flexible definition of “pay for it,” this law starts popping up all over :blue:
+ :PROPERTIES:
+:PAGE: 155
+:END:
+
+** Instead, it’s about using money as a “neutral indicator of value”—a way of determining whether or not you have enough career capital to succeed with a pursuit. I called this the law of financial viability :blue:
+ :PROPERTIES:
+:PAGE: 158
+:END:
+
+** As I spent time with Pardis, I recognized that her happiness comes from the fact that she built her career on a clear and compelling mission :blue:
+ :PROPERTIES:
+:PAGE: 164
+:END:
+
+** She developed an algorithm that sifts through databases of human genetic information looking for traces of an elusive target: ongoing human evolution. To the general public, the idea that humans are still evolving can be surprising, but among evolutionary biologists it’s taken for granted.  :blue:
+ :PROPERTIES:
+:PAGE: 165
+:END:
+
+** One of the classic examples of recent human evolution is lactose tolerance—the ability to digest milk into adulthood—a trait that didn’t start spreading through the human population until we domesticated milk-producing animals :blue:
+ :PROPERTIES:
+:PAGE: 165
+:END:
+
+** Pardis’s algorithm uses statistical techniques to hunt down patterns of gene migration that match what you would expect from selective pressure—for example, a mutation that popped up recently in human development but has since spread quickly among a population. The algorithm, in other words, searches blindly, turning up “candidate” genes that look like they’re the result of natural selection, but leaving it up to the researcher to figure out why natural selection deemed the gene useful. Pardis uses the algorithm to search for recently evolved genes that provide disease resistance. Her logic is that if she can find these genes and understand how they work, biomedical researchers might be able to mimic their benefit in a treatment. It makes sense, of course, that disease-resistance genes would be among the candidates turned up by Pardis’s algorithm, as they provide a classic example of natural selection in action. If a deadly virus has been killing off humans in a population for a long time, biologists would say that this population is under “selective pressure.” If a lucky few members of the group then happen to evolve a resistance to the disease, this pressure ensures that the new gene will spread quickly (people with the new gene die less frequently than those without it). This rapid spread of a new gene is exactly the type of signature Pardis’s algorithm has been tuned to detect. Pardis’s first big discovery was a gene that provides resistance to Lhassa fever, one of the oldest and most deadly diseases of the African continent, responsible for tens of thousands of deaths each year. (“People don’t just die with this disease,” she emphasized, “they die extreme deaths.”) She has since added malaria and the bubonic plague to the list of “ancient scourges” that she’s tackling with her computational strategy :blue:
+ :PROPERTIES:
+:PAGE: 165
+:END:
+
+** Big ideas, Johnson explained, are almost always discovered in the “adjacent possible,” a term borrowed from the complex-system biologist Stuart Kauffman, who used it to describe the spontaneous formation of complex chemical structures from simpler structures. Given a soup of chemical components sloshing and mixing together, noted Kauffman, lots of new chemicals will form. Not every new chemical, however, is equally likely. The new chemicals you’ll find are those that can be made by combining the structures already in the soup. That is, the new chemicals are in the space of the adjacent possible defined by the current structures :blue:
+ :PROPERTIES:
+:PAGE: 173
+:END:
+
+** The isolation of oxygen as a component of air, to name one of Johnson’s examples of a multiple discovery, wasn’t possible until two things happened: First, scientists began to think about air as a substance containing elements, not just a void; and second, sensitive scales, a key tool in the needed experiments, became available. Once these two developments occurred, the isolation of oxygen became a big fat target in the newly defined adjacent possible—visible to anyone who happened to be looking in that direction :blue:
+ :PROPERTIES:
+:PAGE: 174
+:END:
+
+** Here’s the leap I made as I pondered Pardis Sabeti around the same time I was pondering Johnson’s theory of innovation: A good career mission is similar to a scientific breakthrough—it’s an innovation waiting to be discovered in the adjacent possible of your field :blue:
+ :PROPERTIES:
+:PAGE: 176
+:END:
+
+** But it’s not commonplace; it’s instead quite rare. This rareness, we now understand, is because these breakthroughs require that you first get to the cutting edge, and this is hard—the type of hardness that most of us try to avoid in our working lives :blue:
+ :PROPERTIES:
+:PAGE: 177
+:END:
+
+** The alert reader will notice that this talk of “getting to the cutting edge” echoes the idea of career capital :blue:
+ :PROPERTIES:
+:PAGE: 178
+:END:
+
+** Rule #4 is entitled “Think Small, Act Big.” It’s in this understanding of career capital and its role in mission that we get our explanation for this title. Advancing to the cutting edge in a field is an act of “small” thinking, requiring you to focus on a narrow collection of subjects for a potentially long time. Once you get to the cutting edge, however, and discover a mission in the adjacent possible, you must go after it with zeal: a “big” action :blue:
+ :PROPERTIES:
+:PAGE: 182
+:END:
+
+** As I was struggling to make sense of Kirk’s story, I stumbled across a new business book that had been making waves. It was titled Little Bets, and it was written by a former venture capitalist named Peter Sims.2 When Sims studied a variety of successful innovators, from Steve Jobs to Chris Rock to Frank Gehry, as well as innovative companies, such as Amazon and Pixar, he found a strategy common to all. “Rather than believing they have to start with a big idea or plan out a whole project in advance,” he writes, “they make a methodical series of little bets about what might be a good direction, learning critical information from lots of little failures and from small but significant wins” [emphasis mine]. This rapid and frequent feedback, Sims argues, “allows them to find unexpected avenues and arrive at extraordinary outcomes.” :blue:
+ :PROPERTIES:
+:PAGE: 193
+:END:
+
+** The important thing about little bets is that they’re bite-sized. You try one. It takes a few months at most. It either succeeds or fails, but either way you get important feedback to guide your next steps. This approach stands in contrast to the idea of choosing a bold plan and making one big bet on its success :blue:
+ :PROPERTIES:
+:PAGE: 195
+:END:
+
+** If career capital makes it possible to identify a compelling mission, then it’s a strategy of little bets that gives you a good shot of succeeding in this mission. To deploy this career tactic, you need both pieces. :blue:
+ :PROPERTIES:
+:PAGE: 197
+:END:
+
+** Godin’s book, he had an epiphany: For his mission to build a sustainable career, it had to produce purple cows, the type of remarkable projects that compel people to spread the word :blue:
+ :PROPERTIES:
+:PAGE: 204
+:END:
+
+** He found his second answer in a 2005 career guide with a quirky title: My Job Went to India: 52 Ways to Save Your Job.3 The book was written by Chad Fowler, a well-known Ruby programmer who also dabbles in career advice for software developers. Featured among Fowler’s fifty-two strategies is the idea that the job seeker should leverage the open-source software movement. This movement brings together computer programmers who volunteer their time to build software that’s freely available and modifiable. Fowler argued that this community is well respected and highly visible. If you want to make a name for yourself in software development—the type of name that can help you secure employment—focus your attention on making quality contributions to open-source projects. This is where the people who matter look for talent. :blue:
+ :PROPERTIES:
+:PAGE: 204
+:END:
+
+** The Law of Remarkability For a mission-driven project to succeed, it should be remarkable in two different ways. First, it must compel people who encounter it to remark about it to others. Second, it must be launched in a venue that supports such remarking :blue:
+ :PROPERTIES:
+:PAGE: 208
+:END:
+
+** The research driving Rule #2 taught me that these plateaus are dangerous because they cut off your supply of career capital and therefore cripple your ability to keep actively shaping your working life :blue:
+ :PROPERTIES:
+:PAGE: 221
+:END:
+
+** This type of skill development is hard. When I got to the first tricky gap in the paper’s main proof argument, I faced immediate internal resistance. It was as if my mind realized the effort I was about to ask it to expend, and in response it unleashed a wave of neuronal protest, distant at first, but then as I persisted increasingly tremendous, crashing over my concentration with mounting intensity :blue:
+ :PROPERTIES:
+:PAGE: 222
+:END:
+
+** To combat this resistance, I deployed two types of structure. The first type was time structure: “I am going to work on this for one hour,” I would tell myself. “I don’t care if I faint from the effort, or make no progress, for the next hour this is my whole world.” But of course I wouldn’t faint and eventually I would make progress. It took, on average, ten minutes for the waves of resistance to die down. Those ten minutes were always difficult, but knowing that my efforts had a time limit helped ensure that the difficulty was manageable :blue:
+ :PROPERTIES:
+:PAGE: 223
+:END:
+
+** The second type of structure I deployed was information structure—a way of capturing the results of my hard focus in a useful form. I started by building a proof map that captured the dependencies between the different pieces of the proof. :blue:
+ :PROPERTIES:
+:PAGE: 223
+:END:
+
+** my research bible, which is, in reality, a document I keep on my computer. Here’s the routine: Once a week I require myself to summarize in my “bible” a paper I think might be relevant to my research. This summary must include a description of the result, how it compares to previous work, and the main strategies used to obtain it. :blue:
+ :PROPERTIES:
+:PAGE: 225
+:END:
+
+** When you adopt a productivity mindset, however, deliberate practice-inducing tasks are often sidestepped, as the ambiguous path toward their completion, when combined with the discomfort of the mental strain they require, makes them an unpopular choice in scheduling decisions. :blue:
+ :PROPERTIES:
+:PAGE: 228
+:END:
+
+** Getting better and better at what I did became what mattered most, and getting better required the strain of deliberate practice. This is a different way of thinking about work, but once you embrace it, the changes to your career trajectory can be profound. :blue:
+ :PROPERTIES:
+:PAGE: 228
+:END:
+
+** First you need career capital, which requires patience. Second, you need to be ceaselessly scanning your always-changing view of the adjacent possible in your field, looking for the next big idea. This requires a dedication to brainstorming and exposure to new ideas. Combined, these two commitments describe a lifestyle, not a series of steps that automatically spit out a mission when completed. :blue:
+ :PROPERTIES:
+:PAGE: 235
+:END:
+
+*** Note :note:
+From the book where good ideas come from
+
+** This background-research process, which combines exposure to potentially relevant material with free-form re-combination of ideas, comes straight out of Steven Johnson’s book, Where Good Ideas Come From, which I introduced in Rule #4 when talking about his notion of the adjacent possible. According to Johnson, access to new ideas and to the “liquid networks” that facilitate their mixing and matching often provides the catalyst for breakthrough new ideas :blue:
+ :PROPERTIES:
+:PAGE: 238
+:END:
+
+** As you might recall, a little bet, in the setting of mission exploration, has the following characteristics: It’s a project small enough to be completed in less than a month. It forces you to create new value (e.g., master a new skill and produce new results that didn’t exist before). It produces a concrete result that you can use to gather concrete feedback :blue:
+ :PROPERTIES:
+:PAGE: 239
+:END:
+
+** I use little bets to explore the most promising ideas turned up by the processes described by the bottom level of my pyramid. I try to keep only two or three bets active at a time so that they can receive intense attention. I also use deadlines, which I highlight in yellow in my planning documents, to help keep the urgency of their completion high. Finally, I also track my hours spent on these bets in the hour tally I described back in the section of this conclusion dedicated to my application of Rule #2 :red:
+ :PROPERTIES:
+:PAGE: 239
+:END:
+
+** Ultimately, the success or failure of the projects pursued in this middle level helps me evolve the research mission maintained by the top level. In other words, the system as a whole is a closed feedback loop—constantly evolving toward a clearer and better supported vision for my work :blue:
+ :PROPERTIES:
+:PAGE: 240
+:END:

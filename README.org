@@ -42,7 +42,7 @@ Call ~org-ereader-annot-pocketbook-insert~ on an org-file. Place it in your own 
       :n :desc "Insert pocketbook annot" "n i" #'org-ereader-annot-pocketbook-insert
       :n :desc "Insert pocketbook annot (unsort)" "n I" #'org-ereader-annot-pocketbook-insert-unsorted)
 #+end_src
-Don't have the annotation file to test? Don't worry. I got ya covered. Check the [[file:testfile/][testfile]] directory.
+Don't have the annotation file to test? Don't worry. I got ya covered. Check the [[file:testfile/][testfile]] directory for test files and examples.
 
 * TODO-lists
 - [ ] Declutter the code (improve modularity and cleanup redundancy)
