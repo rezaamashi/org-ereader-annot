@@ -105,7 +105,7 @@ result by page."
   "Parse PocketBook HTML annotation file and insert it `at-point' of
    the buffer"
   (interactive)
-  (let ((file (abbreviate-file-name (expand-file-name (read-file-name "Select Pocketbook annotation file: " org-ereader-annot-directory)))))
+  (let ((file (abbreviate-file-name (expand-file-name (read-file-name "Select Pocketbook annotation file [unsort]: " org-ereader-annot-directory)))))
     (insert (concat "* Annotation\n:PROPERTIES:\n:FILE: " file
                     "\n:CREATED: " (format-time-string "[%Y-%m-%d %a %R]")
                     "\n:END:\n\n"
