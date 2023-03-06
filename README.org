@@ -21,13 +21,16 @@ Put this line into ~packages.el~ in your ~$DOOMDIR~
 And this to your ~config.el~
 #+begin_src emacs-lisp
 (use-package! org-ereader-annot
-  :commands (org-ereader-annot-pocketbook-insert
+  :commands (org-ereader-annot-insert
+             org-ereader-annot-pocketbook-insert
              org-ereader-annot-pocketbook-insert-unsorted)
   :config
   ;; Setting default location where annot files are collected
   (setq org-ereader-annot-directory "~/org/Kindnotes/"
   ;; Set the header level of the inserted annot
-        org-ereader-annot-header-level 1))
+        org-ereader-annot-header-level 1
+  ;; Define the app that produced the annot file
+        org-ereader-annot-app "pocketbook")) ;; currently support `pocketbook'
 #+end_src
 
 ** non-Doom with straight
@@ -35,21 +38,24 @@ And this to your ~config.el~
 (use-package org-ereader-annot
   :straight (:host github
              :repo "rezaamashi/org-ereader-annot")
-  :commands (org-ereader-annot-pocketbook-insert
+  :commands (org-ereader-annot-insert
+             org-ereader-annot-pocketbook-insert
              org-ereader-annot-pocketbook-insert-unsorted)
   :config
   ;; Setting default location where annot files are collected
   (setq org-ereader-annot-directory "~/org/Kindnotes/"
   ;; Set the header level of the inserted annot
-        org-ereader-annot-header-level 1))
+        org-ereader-annot-header-level 1
+  ;; Define the app that produced the annot file
+        org-ereader-annot-app "pocketbook")) ;; currently support `pocketbook'
 #+end_src
 
 * Usage
-Call ~org-ereader-annot-pocketbook-insert~ on an org-file. Place it in your own keybinding or use my recommended ~Doom~ binding here:
+Call ~org-ereader-annot-insert~ on an org-file. Place it in your own keybinding or use my recommended ~Doom~ binding here:
 #+begin_src emacs-lisp
 (map! :map org-mode-map
       :leader
-      :n :desc "Insert pocketbook annot" "n i" #'org-ereader-annot-pocketbook-insert
+      :n :desc "Insert annot" "n i" #'org-ereader-annot-insert
       :n :desc "Insert pocketbook annot (unsort)" "n I" #'org-ereader-annot-pocketbook-insert-unsorted)
 #+end_src
 Don't have the annotation file to test? Don't worry. I got ya covered. Check the [[file:testfile/][testfile]] directory for test files and examples.
@@ -59,8 +65,8 @@ Don't have the annotation file to test? Don't worry. I got ya covered. Check the
 - [X] Declutter the code (improve modularity and cleanup redundancy)
 - [X] Allow user to define the header level of the inserted annotation
 - [ ] Give user option to set whether the header level would be uniformed or dynamically set from the pre-existing header
-- [ ] Include another app exports
+- [-] Include another app exports
   + [ ] kindle "my-clippings.txt"
   + [ ] kindle android's html annotation export
   + [ ] moon+ reader html annotation export
-  + [ ] Create a single door function with a predefined default app export type
+  + [X] Create a single door function with a predefined default app export type
