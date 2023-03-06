@@ -95,7 +95,7 @@ result by page."
   "Parse and sort PocketBook HTML annotation file and insert it `at-point' of
    the buffer, and sort it by page"
   (interactive)
-  (let ((file (expand-file-name (read-file-name "Select HTML file: "))))
+  (let ((file (abbreviate-file-name (expand-file-name (read-file-name "Select Pocketbook annotation file: ")))))
     (insert (concat "* Annotation\n:PROPERTIES:\n:FILE: " file
                     "\n:CREATED: " (format-time-string "[%Y-%m-%d %a %R]")
                     "\n:END:\n\n"
@@ -105,7 +105,7 @@ result by page."
   "Parse PocketBook HTML annotation file and insert it `at-point' of
    the buffer"
   (interactive)
-  (let ((file (expand-file-name (read-file-name "Select HTML file: "))))
+  (let ((file (abbreviate-file-name (expand-file-name (read-file-name "Select Pocketbook annotation file: ")))))
     (insert (concat "* Annotation\n:PROPERTIES:\n:FILE: " file
                     "\n:CREATED: " (format-time-string "[%Y-%m-%d %a %R]")
                     "\n:END:\n\n"
