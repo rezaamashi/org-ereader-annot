@@ -21,7 +21,8 @@
 (require 'org-ereader-annot-pocketbook)
 
 (defcustom org-ereader-annot-app ""
-  "Define the application that exported the annotation, such as:
+  "Variable that used in the generic `org-ereader-annot-insert'.
+Define the app or device that exported the annotation, such as:
 'kindle', 'pocketbook', 'moonreader','kindleapp', etc."
   :type '(choice "pocketbook")
   :group 'org-ereader-annot)
