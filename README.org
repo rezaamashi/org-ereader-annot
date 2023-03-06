@@ -52,7 +52,7 @@ Don't have the annotation file to test? Don't worry. I got ya covered. Check the
 
 * TODO-lists
 - [X] Set the function to interactively start on defined directory. Instead of cwd
-- [ ] Declutter the code (improve modularity and cleanup redundancy)
+- [X] Declutter the code (improve modularity and cleanup redundancy)
 - [ ] Make inserted header to be dynamically generated from following pre-existing header, instead of defined in the code
 - [ ] Include another app exports
   + [ ] kindle "my-clippings.txt"

@@ -18,8 +18,6 @@
 ;; into `org-mode' notes
 ;;; Code:
 
-;;(require 'org)
-;;(require 'libxml-parse-html)
 (require 'xml)
 
 (defcustom org-ereader-annot-app ""
@@ -38,39 +36,16 @@
   :type 'string
   :group 'org-ereader-annot)
 
-(defun org-ereader-annot--pocketbook-parse (pocketbook-annot-file)
-  "Parser function for
-`org-ereader-annot-pocketbook-insert-unsorted'. This function
-parse highlight color, page number, text content, and note
-content. Respectively, it is then inserted into `tag',
-`properties' content, level 2 `header' (akin to `org-noter'), and
-`content' of the text."
-  (with-temp-buffer
-    (insert-file-contents pocketbook-annot-file)
-    (let ((dom (libxml-parse-html-region (point-min) (point-max)))
-          (results ()))
-      (dolist (div (dom-by-tag dom 'div))
-        (when (string-match "^bookmark bm-color-\\(.*\\)$" (cdr (assoc 'class (dom-attributes div))))
-          (let* ((color (match-string 1 (cdr (assoc 'class (dom-attributes div)))))
-                 (page (dom-text (car (dom-by-class div "bm-page"))))
-                 (text-div (car (dom-by-class div "bm-text")))
-                 (text (dom-text (car (dom-by-tag text-div 'p))))
-                 (note-div (car (dom-by-class div "bm-note")))
-                 (note (when note-div (dom-text (car (dom-by-tag note-div 'p))))))
-            (push (format "** %s :%s:\n :PROPERTIES:\n:PAGE: %s\n:END:\n%s\n"
-                          text color page (if note (concat "\n*** Note :note:\n" note "\n") "")) results))))
-      (mapconcat 'identity (reverse results) ""))))
-
-(defun org-ereader-annot--pocketbook-parse-and-sort (pocketbook-annot-file)
-  "Parser function for `org-ereader-annot-pocketbook-insert'. This
+(defun org-ereader-annot--pocketbook-parse (pocketbook-annot-file &optional sort-by-page)
+  "Parser function for `org-ereader-annot--pocketbook-result'. This
 function parse highlight color, page number, text content, and
 note content. Respectively, it is then inserted into `tag',
 `properties' content, level 2 `header' (akin to `org-noter'), and
 `content' of the text.
 
-But as the nature of the annotation file
-is sorted by time of collection, this function also sort the
-result by page."
+But as the nature of the annotation file is sorted by time of
+collection, if SORT-BY-PAGE is non-nil the parsed data will be
+produced as is."
   (with-temp-buffer
     (insert-file-contents pocketbook-annot-file)
     (let ((dom (libxml-parse-html-region (point-min) (point-max)))
@@ -84,32 +59,43 @@ result by page."
                  (note-div (car (dom-by-class div "bm-note")))
                  (note (when note-div (dom-text (car (dom-by-tag note-div 'p))))))
 
-            (push (list page (format "** %s :%s:\n :PROPERTIES:\n:PAGE: %s\n:END:\n%s\n"
-                                     text color page (if note (concat "\n*** Note :note:\n" note "\n") "")))
+            (push (if sort-by-page (list page (format "**  %s :%s:\n :PROPERTIES:\n:PAGE: %s\n:END:\n%s\n"
+                                                      text color page (if note (concat "\n*** Note :note:\n" note "\n") "")))
+                              (format "**  %s :%s:\n :PROPERTIES:\n:PAGE: %s\n:END:\n%s\n"
+                                      text color page (if note (concat "\n*** Note :note:\n" note "\n") "")))
                   results))))
 
-      (setq results (sort results (lambda (x y) (> (car x) (car y)))))
-      (mapconcat 'identity (reverse (mapcar 'cadr results)) ""))))
+      (if sort-by-page
+          (progn
+            (setq results (sort results (lambda (x y) (> (car x) (car y)))))
+            (mapconcat 'identity (reverse (mapcar 'cadr results)) ""))
+        (mapconcat 'identity (reverse results) "")))))
+
+(defun org-ereader-annot--pocketbook-result (sort-by-page)
+  "Parse PocketBook HTML annotation file and insert it `at-point' of
+   the buffer. If SORT-BY-PAGE is non-nil, sort the annotations by pages."
+  (let* ((file (abbreviate-file-name
+                (expand-file-name
+                 (if sort-by-page
+                     (read-file-name "Select Pocketbook annotation file: " org-ereader-annot-directory)
+                   (read-file-name "Select Pocketbook annotation file [unsort]: " org-ereader-annot-directory))))))
+    (insert (concat "* Annotation\n:PROPERTIES:\n:FILE: " file
+                    "\n:CREATED: " (format-time-string "[%Y-%m-%d %a %R]")
+                    "\n:END:\n\n"
+                    (if sort-by-page
+                        (org-ereader-annot--pocketbook-parse file t)
+                      (org-ereader-annot--pocketbook-parse file))))))
 
 (defun org-ereader-annot-pocketbook-insert ()
-  "Parse and sort PocketBook HTML annotation file and insert it `at-point' of
-   the buffer, and sort it by page"
+  "Wrapper around `org-ereader-annot--pocketbook-result' that sorts the annotations by page."
   (interactive)
-  (let ((file (abbreviate-file-name (expand-file-name (read-file-name "Select Pocketbook annotation file: " org-ereader-annot-directory)))))
-    (insert (concat "* Annotation\n:PROPERTIES:\n:FILE: " file
-                    "\n:CREATED: " (format-time-string "[%Y-%m-%d %a %R]")
-                    "\n:END:\n\n"
-                    (org-ereader-annot--pocketbook-parse-and-sort file)))))
+  (org-ereader-annot--pocketbook-result t))
 
 (defun org-ereader-annot-pocketbook-insert-unsorted ()
-  "Parse PocketBook HTML annotation file and insert it `at-point' of
-   the buffer"
+  "Wrapper around `org-ereader-annot--pocketbook-result' that
+doesn't sort the annotations. Usually it means by creation time."
   (interactive)
-  (let ((file (abbreviate-file-name (expand-file-name (read-file-name "Select Pocketbook annotation file [unsort]: " org-ereader-annot-directory)))))
-    (insert (concat "* Annotation\n:PROPERTIES:\n:FILE: " file
-                    "\n:CREATED: " (format-time-string "[%Y-%m-%d %a %R]")
-                    "\n:END:\n\n"
-                    (org-ereader-annot--pocketbook-parse file)))))
+  (org-ereader-annot--pocketbook-result nil))
 
 (provide 'org-ereader-annot)
 ;;; org-ereader-annot.el ends here
