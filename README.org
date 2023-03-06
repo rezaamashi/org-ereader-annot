@@ -5,7 +5,7 @@
 *  Overview
 This package parse =pocketbook= annotation and format them into the proper =org= headers.
 
-![Screenshot of the package in action](assets/Screenshot-20230305144129.png)
+[[file:assets/Screenshot-20230305144129.png][Screenshot of the package in action]]
 
 * Installation
 
