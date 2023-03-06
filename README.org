@@ -44,7 +44,11 @@ Call ~org-ereader-annot-pocketbook-insert~ on an org-file. Place it in your own 
 Don't have the annotation file to test? Don't worry. I got ya covered. Check the [[file:testfile/][testfile]] directory.
 
 * TODO-lists
+- [ ] Declutter the code (improve modularity and cleanup redundancy)
+- [ ] Set the function to interactively start on defined directory. Instead of cwd
+- [ ] Make inserted header to be dynamically generated from following pre-existing header, instead of defined in the code
 - [ ] Include another app exports
   + [ ] kindle "my-clippings.txt"
-  + [ ] moon+ reader
-- [ ] make inserted header to be dynamically generated from previous header, instead of defined in the code
+  + [ ] kindle android's html annotation export
+  + [ ] moon+ reader html annotation export
+  + [ ] Create a single door function with a predefined default app export type
