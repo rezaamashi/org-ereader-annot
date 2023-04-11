@@ -44,9 +44,9 @@ produced. it is defined through `org-ereader-annot-header-level'."
                  (note (when note-div (dom-text (car (dom-by-tag note-div 'p))))))
 
             (push (if sort-by-page (list page (format "%s  %s :%s:\n :PROPERTIES:\n:PAGE: %s\n:END:\n%s\n"
-                                                      (make-string (+ 1 level) ?*)text color page (if note (concat "\n" (make-string (+ 2 level) ?*)"Note :note:\n" note "\n") "")))
+                                                      (make-string (+ 1 level) ?*)text color page (if note (concat "\n" (make-string (+ 2 level) ?*)" Note :note:\n" note "\n") "")))
                               (format "%s  %s :%s:\n :PROPERTIES:\n:PAGE: %s\n:END:\n%s\n"
-                                      (make-string (+ 1 level) ?*)text color page (if note (concat "\n" (make-string (+ 2 level) ?*) "Note :note:\n" note "\n") "")))
+                                      (make-string (+ 1 level) ?*)text color page (if note (concat "\n" (make-string (+ 2 level) ?*) " Note :note:\n" note "\n") "")))
                   results))))
 
       (if sort-by-page
